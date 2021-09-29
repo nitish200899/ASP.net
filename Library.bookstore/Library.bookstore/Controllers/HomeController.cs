@@ -8,9 +8,19 @@ namespace Library.bookstore.Controllers
 {
     public class HomeController : Controller
     {
-        public string Index()
+        public ViewResult Index()
         {
-            return "Library";
+            var obj = new { id = 1, name = "nitish" };
+            return View();
+        }
+
+        public ViewResult AboutUs()
+        {
+            return View();
+        }
+        public ViewResult Contact()
+        {
+            return View();
         }
     }
 }
