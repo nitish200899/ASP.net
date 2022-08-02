@@ -1,4 +1,4 @@
 This is a file to learn the git fetch command.
-
+get fetch origin is the command to rescue.
 
 There is some more changes in fetch.txt
